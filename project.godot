@@ -11,5 +11,14 @@ config_version=5
 [application]
 
 config/name="curso-plataformer"
+run/main_scene="uid://coi3vg7ii6c0y"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://Prefabs/": "yellow",
+"res://Scenes/": "purple",
+"res://Scripts/": "blue"
+}
